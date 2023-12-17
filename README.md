@@ -26,8 +26,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- GitHub soluton: [GitHub solution](https://github.com/sourabh-yalagod/Result-summary-Component)
+- Live Site: [Live Site](https://sourabh-yalagod.github.io/Result-summary-Component/)
 
 ### Built with
 
