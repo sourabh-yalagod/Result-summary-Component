@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="./src/dist/output.css">
+  <title>Results summary component</title>
+</head>
+<body class="grid h-screen w-screen place-content-center justify-center bg-slate-300 font-Hanken relative">
+    <section class="grid max-w-[600px] justify-center place-content-center rounded-sm bg-white  sm:grid-cols-2 sm:rounded-xl sm:gap-3 p-2">
+      <div class="flex  flex-col justify-start gap-2 rounded-b-3xl bg-gradient-to-b from-violet-600 to-blue-700 px-2 sm:p-3 pb-4 pt-5 sm:gap-3 sm:rounded-xl">
+        <h1 class="text-Light_lavender text-center text-[18px] font-semibold text-gray-300">Your Result</h1>
+        <div class="grid mx-auto h-[130px] w-[130px] cursor-pointer rounded-full border-transparent bg-gradient-to-b from-violet-800 to-blue-700 transition-all hover:scale-95 hover:shadow-black">
+          <h1 class="pt-5 text-center text-4xl font-bold text-white">76</h1>
+          <div class="text-center text-[17px] font-bold text-gray-400">of 100</div>
+        </div>
+        <h2 class="text-White_mix text-center text-base font-semibold text-gray-100">Great</h2>
+        <p class="text-center font-semibold text-gray-300 text-[17px]">You Scored higher than 65% of the people who have taken these tests.</p>
+      </div>
+      <div class="grid place-items-start gap-2 px-3 pt-2">
+        <h1 class="cursor-pointer pb-2 text-base font-semibold text-blue-900 transition-all hover:scale-105">summary</h1>
+  
+        <div class="flex w-full cursor-pointer justify-between rounded-lg bg-red-100 px-3 py-2 transition-all hover:scale-105">
+          <div class="icon flex gap-3"><img src="./assets/images/icon-reaction.svg" alt="" class="w-3"> <span class="text-[16px] font-semibold text-red-600">Reaction</span></div>
+          <div class="text-[17px] font-bold text-blue-900">80<span class="pl-2 font-semibold text-slate-400">/ 100</span></div>
+        </div>
+        <div class="flex w-full cursor-pointer justify-between rounded-lg bg-yellow-50 px-3 py-2 transition-all hover:scale-105">
+          <div class="icon flex gap-3"><img src="./assets/images/icon-memory.svg" alt="" class="w-3"><span class="text-[16px] font-semibold text-yellow-300">Memory</span></div>
+          <div class="text-[17px] font-bold text-blue-900">92<span class="pl-2 font-semibold text-slate-400">/ 100</span></div>
+        </div>
+        <div class="flex w-full cursor-pointer justify-between rounded-lg bg-green-100 px-3 py-2 transition-all hover:scale-105">
+          <div class="icon flex gap-3"><img src="./assets/images/icon-verbal.svg" alt="" class="w-3"><span class="text-[16px] font-semibold text-green-600">Verbal</span></div>
+          <div class="text-[17px] font-bold text-blue-900">61<span class="pl-2 font-semibold text-slate-400">/ 100</span></div>
+        </div>
+        <div class="flex w-full cursor-pointer justify-between rounded-lg bg-blue-100 px-3 py-2 transition-all hover:scale-105">
+          <div class="icon flex gap-3"><img src="./assets/images/icon-visual.svg" alt="" class="w-3"><span class="text-Cobalt_blue text-[16px] font-semibold">Visual</span></div>
+          <div class="text-[17px] font-bold text-blue-900">72<span class="pl-2 font-semibold text-slate-400">/ 100</span></div>
+        </div>
+        <button class="h-9 w-full rounded-full bg-slate-700 text-[18px] font-semibold tracking-wide text-white transition-all hover:scale-95 hover:bg-slate-800 hover:text-[18px] hover:font-bold focus:bg-slate-800 focus:scale-95">Continue</button>
+      </div>
+  </section>
+  <div class="absolute bottom-0 w-full font-sans text-black text-base text-center">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" class="underline font-semibold" target="_blank">Frontend Mentor</a>. 
+    Coded by <a target="_blank" href="#" class="underline font-semibold">Sourabh Yalagod.</a>
+  </div> 
+</body>
+</html>
